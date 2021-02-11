@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "./Header";
 import Footer from "./Footer";
+import "fontsource-zilla-slab";
 
 const layout = ({ children }) => {
     return (

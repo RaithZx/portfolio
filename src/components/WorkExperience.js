@@ -3,7 +3,7 @@ import React from 'react'
 const WorkExperience = () => {
     return (
         <div>
-            <div class="h-screen">
+            <div className="h-screen">
                 Hi
             </div>
         </div>
