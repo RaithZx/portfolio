@@ -2,15 +2,11 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className="flex flex-col flex-wrap justify-center content-center  w-2/3 md:w-full h-screen">
-            <h1 className="text-6xl text-indigo-900">Hi! I'm Yuri 👋🏽<br /> a Salesforce developer</h1>
-            <span className="mt-8 text-xl text-gray-600">Currently working remotely from Africa.<br /></span>
-            <span className="text-gray-600 text-xl">Read more <a href="" className="text-black-300">about me here</a> or checkout my <a>previous projects</a></span>
+        <div className="flex flex-col flex-wrap justify-center  h-screen">
+            <h1 className="text-5xl md:text-6xl text-gray-700 font-bold title">Hi! I'm Yuri 👋🏽,<br /> a <span className="underline">Salesforce</span> developer</h1>
+            <span className="mt-8 text-xl text-gray-600">Currently working <mark>remotely from Africa.</mark><br /></span>
+            <span className="text-gray-600 text-xl">Read more about me <a href="" className="underline text-black-300"> here</a> or checkout my <a href="" className="underline text-black-300">previous projects</a></span>
             <span className="mt-9" role="img">
-                Arrow
-                {/* <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="50px" height="50px" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M5 11l7-7 7 7M5 19l7-7 7 7" />
-                </svg> */}
             </span>
         </div>
     )
