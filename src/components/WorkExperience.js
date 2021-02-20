@@ -10,24 +10,116 @@ const WorkExperience = () => {
         <a href="">
           <div class="flex items-center justify-start mb-8">
             <div class="w-10 border-b border-solid border-black"></div>
-            <h1 class="ml-3 text-3xl text-primary title">Work Experience</h1>
+            <h1 class="ml-3 text-4xl text-primary title">Work Experience</h1>
             {/* <h1 class="ml-3 text-3xl text-gray-700 font-bold title">Work Experience</h1> */}
           </div>
         </a>
         <div class="experienceList flex flex-col">
-          <div class="experienceItem flex-col mb-4">
-            <div class="firstRow">
-            <span className="text-xl text-gray-800 font-bold">Salesforce Developer</span>
-            <span className="ml-5 text-gray-500 text-md">February 20129 - Present</span>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
             </div>
-            <p className="text-md text-gray-700 font-bold">K-LAGAN</p>
+          </div>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
             </div>
-          <div class="experienceItem flex-col mb-8">
-            <div class="firstRow">
-            <span className="text-xl text-black-700 font-bold">Salesforce Developer</span><span className="ml-5 text-gray-400 text-lg">February 20129 - Present</span>
+          </div>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
             </div>
-            <p className="ml-2 text-md text-gray-600 font-bold">K-LAGAN</p>
+          </div>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
             </div>
+          </div>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
+            </div>
+          </div>
+          <div class="experienceItem flex items-center mb-4">
+            <span class="relative flex h-4 w-4 mr-6">
+              <span class=" absolute inline-flex h-full w-full rounded-full bg-transparent border-2 border-green-400"></span>{" "}
+              <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green-400 dark:border-dark-accent"></span>
+            </span>
+            <div class="flex-1  flex-wrap">
+              <span className="text-secondary text-lg">
+                February 20129 - Present
+              </span>{" "}
+              <h1 className="text-2xl text-primary font-bold">
+                Salesforce Developer
+              </h1>
+              <h2 className="text-lg text-secondary font-bold w-full">
+                K-LAGAN
+              </h2>
+            </div>
+          </div>
+        </div>
+        <div>
+          I'm a Braszilian but lived most of my life in Spain. I started coding when I was 12 years old and fell in love with web technologies.
         </div>
       </div>
     </div>
