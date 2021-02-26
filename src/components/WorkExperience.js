@@ -3,7 +3,7 @@ import React from "react";
 const WorkExperience = () => {
   return (
     <div>
-      <div className="flex flex-col flex-wrap h-screen">
+      <div className="flex flex-col flex-wrap">
         {/* <h1 className="text-lg md:text-2lg text-gray-700 font-bold title">
           Work Experience
         </h1> */}
@@ -118,9 +118,7 @@ const WorkExperience = () => {
             </div>
           </div>
         </div>
-        <div>
-          I'm a Braszilian but lived most of my life in Spain. I started coding when I was 12 years old and fell in love with web technologies.
-        </div>
+       
       </div>
     </div>
   );
