@@ -1,11 +1,11 @@
 {
     "title": "Work Experience",
-    "experiences": [
+    "list": [
         {
             "jobTitle": "Salesforce Developer",
             "company": "K-LAGAN",
             "dateFrom": "October 2019",
-            "dateTo": "Current"
+            "dateTo": "January 2021"
         },
         {
             "jobTitle": "Salesforce Developer",
@@ -18,6 +18,37 @@
             "company": "Avon",
             "dateFrom": "July 2018",
             "dateTo": "February 2019"
+        },
+        {
+            "jobTitle": "Webmaster",
+            "company": "Studio Gronda",
+            "dateFrom": "May 2017",
+            "dateTo": "June 2018"
+        },
+        {
+            "jobTitle": "FullStack Web Developer",
+            "company": "Pleiades Tecnologia",
+            "dateFrom": "October 2017",
+            "dateTo": "April 2018"
+        },
+        {
+            "jobTitle": "IT Technician",
+            "company": "Inversis Bank",
+            "dateFrom": "July 2017",
+            "dateTo": "September 2018"
+        },
+        {
+            "jobTitle": "FullStack Web Developer",
+            "company": "Kuiper",
+            "dateFrom": "April 2017",
+            "dateTo": "June 2017"
+        },
+        {
+            "jobTitle": "UI Designer",
+            "company": "Tagus River Confederation",
+            "dateFrom": "April 2017",
+            "dateTo": "June 2017"
         }
+        
     ]
 }

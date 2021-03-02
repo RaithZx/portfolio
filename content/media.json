@@ -3,15 +3,19 @@
     "items": [
         {
             "name": "LinkedIn",
-            "url": "https://www.linkedin.com/yuri-fraga-leandro"
+            "url": "https://www.linkedin.com/in/yuri-fraga-leandro"
         },
         {
             "name": "Instagram",
-            "url": "www.instagram.com/yuri_codes"
+            "url": "https://www.instagram.com/yuri_codes"
         },
         {
             "name": "GitHub",
-            "url": "www.github.com/raithzx"
+            "url": "https://www.github.com/raithzx"
+        },
+        {
+            "name": "Trailblazer.me",
+            "url": "https://trailblazer.me/id/yleandro"
         }
     ]
 }
