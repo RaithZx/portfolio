@@ -18,6 +18,7 @@
         "fontsource-zilla-slab": "^4.0.0",
         "gatsby": "^2.26.1",
         "gatsby-plugin-postcss": "^3.7.0",
+        "gatsby-source-filesystem": "^2.11.1",
         "postcss": "^8.2.4",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",

@@ -1,4 +1,6 @@
 import React from 'react'
+import profilePic from '../images/profile.jpg'
+import profilePicHat from '../images/profileHat.jpg'
 
 const Hero = () => {
     return (
@@ -8,6 +10,7 @@ const Hero = () => {
             <span className="text-gray-600 text-xl">Read more about me <a href="" className="underline text-black-300"> here</a> or checkout my <a href="" className="underline text-black-300">previous projects</a></span>
             <span className="mt-9" role="img">
             </span>
+            <img className="ml-6" src={profilePicHat} alt="" />
         </div>
     )
 }
