@@ -1,4 +1,5 @@
 import React from "react";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import profilePic from "../images/profile.jpg";
 import profilePicHat from "../images/profileHat.jpg";
 import Card from "./Card";
@@ -13,9 +14,11 @@ const Hero = () => {
       </h1>
       <span className="mt-4 md:mt-8 text-xl text-secondary">
         I'm an avid developer with +4 years of{" "}
-        <span className="underline">
-          <mark>work experience</mark>
-        </span>
+        <AnchorLink to="#workExperience" >
+          <span className="underline">
+            <mark>work experience</mark>
+          </span>
+        </AnchorLink>
         <br />
       </span>
       {/* <span className="mt-8 text-xl text-secondary">
@@ -25,12 +28,12 @@ const Hero = () => {
       </span> */}
       <span className="text-gray-600 text-xl">
         Read my{" "}
-        <a href="" className="underline text-black-300">
+        <AnchorLink to="#about" className="underline text-black-300">
           <mark>story</mark>
-        </a>{" "}
+        </AnchorLink>{" "}
         and checkout my{" "}
         <a href="" className="underline text-black-300">
-          <mark>previous projects</mark>
+          <mark> projects</mark>
         </a>
       </span>
       <div className="flex justify-start">{/* <Card /> */}</div>

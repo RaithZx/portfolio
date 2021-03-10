@@ -2,7 +2,7 @@ import React from "react";
 import WorkData from '../../content/workExperience.json'
 const WorkExperience = () => {
   return (
-    <div>
+    <div id="workExperience">
       <div className="flex flex-col flex-wrap">
         <a href="">
           <div className="flex items-center justify-start mb-8">
@@ -21,7 +21,7 @@ const WorkExperience = () => {
               <span className="text-secondary text-base">
                 {data.dateFrom} - {data.dateTo}
               </span>{" "}
-              <h1 className="text-xl text-primary font-bold">
+              <h1 className="text-xl text-primary font-bold underline">
                 {data.jobTitle}
               </h1>
               <h2 className="text-lg text-secondary font-bold w-full">
