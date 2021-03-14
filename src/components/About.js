@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="flex flex-wrap mt-10 h-screen" id="about">
+    <section className="flex flex-col flex-wrap mt-10 h-screen" id="about">
       <a href="">
         <div class="flex items-center justify-start mb-8">
           <div class="w-10 border-b border-solid border-black"></div>
