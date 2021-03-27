@@ -4,10 +4,6 @@ import Hero from "../pages/Hero";
 import WorkExperience from "../pages/WorkExperience";
 import About from "../pages/About";
 function Index() {
-  return (
-    <Layout>
-      <Hero />
-    </Layout>
-  );
+  return <Layout>{<Hero />}</Layout>;
 }
 export default Index;

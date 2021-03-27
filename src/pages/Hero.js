@@ -9,24 +9,21 @@ import { Link } from "gatsby";
 const Hero = () => {
   return (
     <div className="flex flex-col flex-wrap justify-center  h-screen relative">
-      <h1 className="text-5xl md:text-6xl text-gray-700 font-bold title">
-        Hi! I'm Yuri 👋🏽,
+      <h1 className="text-3xl md:text-6xl text-gray-700 font-bold title">
+        Hi! I'm Yuri,
         <br /> a <span className="underline">Salesforce</span> developer
       </h1>
       <span className="mt-4 md:mt-8 text-xl text-secondary">
         I'm an avid developer with +4 years of{" "}
         <Link to="/WorkExperience">
           <span className="underline">
-            <mark>work experience</mark>
+            <mark>work experience.</mark>
           </span>
         </Link>
         <br />
+        I'm a Brazilian based in Spain currently working remotely from Africa
+        🌴🥥. <br />
       </span>
-      {/* <span className="mt-8 text-xl text-secondary">
-        I'm currently working <mark>remotely from Africa (Cape Verde)</mark> as
-        a digital nomad
-        <br />
-      </span> */}
       <span className="text-gray-600 text-xl">
         Read my{" "}
         <mark>

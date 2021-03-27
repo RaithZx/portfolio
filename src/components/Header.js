@@ -3,6 +3,7 @@ import React from "react";
 const Header = () => {
   const navToggle = () => {
     console.log("Hello World");
+    alert("Hello World");
   };
   return (
     // <nav classNameName="flex justify-end w-full px-6 lg:px-32 bg-white">
@@ -21,12 +22,10 @@ const Header = () => {
         id="site-menu"
         className="flex flex-col sm:flex-row w-full justify-between items-center px-4 sm:px-6 py-1 bg-white sm:shadow-none"
       >
-        <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-between items-center">
-          //
-          <a href="#" className="no-underline py-1">
-            //<h1 className="font-bold text-lg tracking-widest">LOGO</h1>
-            //
-          </a>
+        <div className="w-full sm:w-auto self-start sm:self-center flex flex-row sm:flex-none flex-no-wrap justify-end items-center">
+          {/* <a href="#" className="no-underline py-1">
+            <h1 className="font-bold text-lg tracking-widest">LOGO</h1>
+          </a> */}
           <button
             id="menuBtn"
             className="hamburger block sm:hidden focus:outline-none"

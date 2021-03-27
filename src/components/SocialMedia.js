@@ -9,7 +9,7 @@ const SocialMedia = () => {
             href={data.url}
             key={index}
             target="_blank"
-            className="text-primary font-bold mr-3"
+            className="text-primary font-bold mr-3 text-lg"
           >
             {data.name}
           </a>
