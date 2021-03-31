@@ -11,6 +11,7 @@ const SocialMedia = () => {
             target="_blank"
             className="text-primary font-bold mr-3 text-lg"
           >
+            <img src={data.icon} alt="" />
             {data.name}
           </a>
         );

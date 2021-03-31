@@ -1,21 +1,25 @@
 {
-    "title": "Social Media Links",
-    "items": [
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/yuri-fraga-leandro"
-        },
-        {
-            "name": "Instagram",
-            "url": "https://www.instagram.com/yuri_codes"
-        },
-        {
-            "name": "GitHub",
-            "url": "https://www.github.com/raithzx"
-        },
-        {
-            "name": "Trailblazer.me",
-            "url": "https://trailblazer.me/id/yleandro"
-        }
-    ]
+  "title": "Social Media Links",
+  "items": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yuri-fraga-leandro",
+      "icon": "../src/images/linkedin.svg"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/yuri_codes",
+      "icon": "../src/images/instagram.svg"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/raithzx",
+      "icon": "../src/images/github.svg"
+    },
+    {
+      "name": "Trailblazer.me",
+      "url": "https://trailblazer.me/id/yleandro",
+      "icon": "../src/images/salesforce.svg"
+    }
+  ]
 }
