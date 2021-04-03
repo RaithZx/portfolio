@@ -11,6 +11,17 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "data",
+        path: `${__dirname}/content/`,
+      },
+    },
+    "gatsby-transformer-json",
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp", // Needed for dynamic images
     // "gatsby-plugin-anchor-links",
     {
       resolve: "gatsby-plugin-anchor-links",

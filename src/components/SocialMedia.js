@@ -1,22 +1,40 @@
 import React from "react";
-import Media from "../../content/media.json";
+import { StaticImage } from "gatsby-plugin-image";
+import { StaticQuery, graphql } from "gatsby";
+
 const SocialMedia = () => {
   return (
-    <div className="flex mt-8">
-      {Media.items.map((data, index) => {
-        return (
-          <a
-            href={data.url}
-            key={index}
-            target="_blank"
-            className="text-primary font-bold mr-3 text-lg"
-          >
-            <img src={data.icon} alt="" />
-            {data.name}
-          </a>
-        );
-      })}
-    </div>
+    <StaticQuery
+      query={graphql`
+        query SocialMediaList {
+          allSocialMediaJson {
+            edges {
+              node {
+                name
+                url
+                iconName
+              }
+            }
+          }
+        }
+      `}
+      render={(data) => (
+        <span className="mt-8">
+          {data.allSocialMediaJson.edges.map((item, index) => {
+            return (
+              <a
+                href={item.node.url}
+                key={index}
+                target="_blank"
+                className="text-primary font-bold mr-3 text-lg"
+              >
+                {item.node.name}
+              </a>
+            );
+          })}
+        </span>
+      )}
+    />
   );
 };
 

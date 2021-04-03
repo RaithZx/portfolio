@@ -1,9 +1,11 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import Hero from "../pages/Hero";
-import WorkExperience from "../pages/WorkExperience";
-import About from "../pages/About";
+import Hero from "../components/Hero";
 function Index() {
-  return <Layout>{<Hero />}</Layout>;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 }
 export default Index;

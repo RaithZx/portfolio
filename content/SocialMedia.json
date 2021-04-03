@@ -1,25 +1,26 @@
-{
-  "title": "Social Media Links",
-  "items": [
+ [
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/yuri-fraga-leandro",
-      "icon": "../src/images/linkedin.svg"
+      "iconPath": "../src/images/linkedin.svg",
+      "iconName": "linkedin.svg"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/yuri_codes",
-      "icon": "../src/images/instagram.svg"
+      "iconPath": "../images/instagram.svg",
+      "iconName": "instagram.svg"
     },
     {
       "name": "GitHub",
       "url": "https://www.github.com/raithzx",
-      "icon": "../src/images/github.svg"
+      "iconPath": "../images/github.svg",
+      "iconName": "github.svg"
     },
     {
       "name": "Trailblazer.me",
       "url": "https://trailblazer.me/id/yleandro",
-      "icon": "../src/images/salesforce.svg"
+      "iconPath": "../images/salesforce.svg",
+      "iconName": "salesforce.svg"
     }
   ]
-}
