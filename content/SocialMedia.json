@@ -2,25 +2,25 @@
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/yuri-fraga-leandro",
-      "iconPath": "../src/images/linkedin.svg",
+      "iconPath": "./images/icon.png",
       "iconName": "linkedin.svg"
     },
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/yuri_codes",
-      "iconPath": "../images/instagram.svg",
+      "iconPath": "./images/icon.png",
       "iconName": "instagram.svg"
     },
     {
       "name": "GitHub",
       "url": "https://www.github.com/raithzx",
-      "iconPath": "../images/github.svg",
+      "iconPath": "./images/icon.png",
       "iconName": "github.svg"
     },
     {
       "name": "Trailblazer.me",
       "url": "https://trailblazer.me/id/yleandro",
-      "iconPath": "../images/salesforce.svg",
+      "iconPath": "./images/icon.png",
       "iconName": "salesforce.svg"
     }
   ]
