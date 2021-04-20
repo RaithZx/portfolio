@@ -38,7 +38,7 @@ const SocialMedia = () => {
               url
               iconPath {
                 childImageSharp {
-                  gatsbyImageData(width: 200)
+                  gatsbyImageData(width:25)
                 }
                 extension
                 publicURL
@@ -50,21 +50,21 @@ const SocialMedia = () => {
     `)
   return (
     <>
-    <span className="mt-8"> 
+    <span className="mt-10"> 
       {data.allSocialMediaJson.edges.map((item ,index) => {
         {console.log(item.node.name + " - "+item.node.iconPath.childImageSharp.fluid)}
         {console.log(item.node.iconPath.childImageSharp.fluid)}
         const image = getImage(item.node.iconPath)
         return(
         <a 
-           href={item.url}
+           href={item.node.url}
              key={index}
              target="_blank"
-             className="text-primary font-bold mr-3 text-lg"
+             className="text-primary font-bold mr-3 text-lg mr-6"
              >
           {/* <img src={item.node.publicURL} /> */}
           <GatsbyImage image={image} alt="xx"/>
-          {item.node.name}
+          {/* {item.node.name} */}
         </a>)
       })}
     </span>
