@@ -26,7 +26,7 @@ const WorkExperience = () => {
             <a href="">
               <div className="flex items-center justify-start mb-8">
                 <div className="w-10 border-b border-solid border-black"></div>
-                <h1 className="ml-3 text-4xl text-primary title">
+                <h1 className="ml-3 text-4xl text-primary font-bold">
                   Work Experience
                 </h1>
               </div>

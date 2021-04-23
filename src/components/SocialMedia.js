@@ -38,7 +38,7 @@ const SocialMedia = () => {
               url
               iconPath {
                 childImageSharp {
-                  gatsbyImageData(width:25)
+                  gatsbyImageData(width:28)
                 }
                 extension
                 publicURL
@@ -55,6 +55,7 @@ const SocialMedia = () => {
         {console.log(item.node.name + " - "+item.node.iconPath.childImageSharp.fluid)}
         {console.log(item.node.iconPath.childImageSharp.fluid)}
         const image = getImage(item.node.iconPath)
+        let isTrailblazerIcon = (item.node.name == 'Trailblazer.me') ? true : false
         return(
         <a 
            href={item.node.url}
@@ -62,9 +63,8 @@ const SocialMedia = () => {
              target="_blank"
              className="text-primary font-bold mr-3 text-lg mr-6"
              >
-          {/* <img src={item.node.publicURL} /> */}
-          <GatsbyImage image={image} alt="xx"/>
-          {/* {item.node.name} */}
+               <GatsbyImage image={image} alt="xx"/> 
+          
         </a>)
       })}
     </span>

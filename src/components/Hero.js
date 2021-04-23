@@ -13,7 +13,7 @@ const Hero = () => {
         <span className="underline">Salesforce</span> developer
       </h1>
       <span className="mt-4 md:mt-8 text-xl md:text-xl text-secondary">
-        I'm an avid developer with 4+ years of{" "}
+        Hi! I'm an avid developer with 4+ years of{" "}
         <Link to="/WorkExperience">
           <span className="">
             <span className="underline-effect">work experience.</span>
