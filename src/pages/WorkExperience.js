@@ -2,7 +2,9 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 // import WorkData from "../../content/WorkExperience.json";
 import Layout from "../components/Layout";
-const WorkExperience = () => {
+const WorkExperience = ({location}) => {
+  console.log("WorkExperienceº")
+  console.log(location)
   return (
   <StaticQuery
     query={graphql`
@@ -20,13 +22,13 @@ const WorkExperience = () => {
       }
     `}
     render={data => (
-      <Layout>
+      <Layout location={location}>
         <div id="workExperience">
           <div className="flex flex-col flex-wrap">
             <a href="">
               <div className="flex items-center justify-start mb-8">
                 <div className="w-10 border-b border-solid border-black"></div>
-                <h1 className="ml-3 text-4xl text-primary font-bold">
+                <h1 className="ml-3 text-4xl text-primary font-bold title">
                   Work Experience
                 </h1>
               </div>

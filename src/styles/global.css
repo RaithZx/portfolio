@@ -9,13 +9,18 @@
         background-position: 0 0, 27px 27px;
         background-attachment: fixed;
         background-size: 54px 54px; */
-    font-family: "Zilla Slab";
+    /* font-family: "Zilla Slab"; */
+      font-family: "Inter";
   }
   body::selection {
     background: yellow;
   }
   .title {
-    font-family: "Work Sans";
+    /* font-family: "Work Sans"; */
+    font-family: "Zilla Slab";
+  }
+  #presentation {
+    /* font-family: "Inter"; */
   }
   .card-shadow {
     -webkit-box-shadow: 10px 13px 5px 0px rgba(0, 0, 0, 0.75);
@@ -41,5 +46,6 @@
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
     padding: 5px;
+    @apply text-blue-100;
   }
 }
