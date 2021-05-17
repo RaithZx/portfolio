@@ -15,7 +15,7 @@ const layout = ({ location, children }) => {
     <>
       {displayHeader && <Header location={location} />}
 
-      <main className="container px-6 md:px-6 lg:px-32 w-screen">
+      <main className="px-6 lg:px-32 w-screen ">
         {children}
       </main>
       {/* <Footer /> */}

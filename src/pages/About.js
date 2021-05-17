@@ -3,9 +3,9 @@ import Layout from "../components/Layout";
 const About = ({location}) => {
   return (
     <Layout location={location}>
-      <section className="flex flex-col mt-10 h-screen" id="about">
+      <section className="flex flex-col" id="about">
         <a href="">
-          <div class="flex items-center justify-start mb-8">
+          <div class="flex items-center mb-8">
             <div class="w-10 border-b border-solid border-black"></div>
             <h1 class="ml-3 text-4xl text-primary font-bold">About me</h1>
             {/* <h1 class="ml-3 text-3xl text-gray-700 font-bold title">Work Experience</h1> */}

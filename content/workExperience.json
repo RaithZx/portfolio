@@ -1,6 +1,12 @@
 [
     {
         "jobTitle": "Salesforce Developer",
+        "company": "Freelancer",
+        "dateFrom": "January 2021",
+        "dateTo": "Current"
+    },
+    {
+        "jobTitle": "Salesforce Developer",
         "company": "K-LAGAN",
         "dateFrom": "October 2019",
         "dateTo": "January 2021"
