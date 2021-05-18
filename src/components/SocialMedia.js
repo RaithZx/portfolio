@@ -63,7 +63,8 @@ const SocialMedia = () => {
              target="_blank"
              className="text-primary font-bold mr-3 text-lg mr-6"
              >
-               <GatsbyImage image={image} alt="xx"/> 
+               <GatsbyImage image={image} alt="xx"
+               placeholder="blurred"/> 
           
         </a>)
       })}
