@@ -20,8 +20,10 @@
         "fontsource-zilla-slab": "^4.0.0",
         "gatsby": "^3.2.0",
         "gatsby-plugin-anchor-links": "^1.2.1",
+        "gatsby-plugin-google-analytics": "^3.5.0",
         "gatsby-plugin-image": "^1.2.0",
         "gatsby-plugin-postcss": "^4.2.0",
+        "gatsby-plugin-react-helmet": "^4.5.0",
         "gatsby-plugin-sharp": "^3.2.0",
         "gatsby-source-filesystem": "^3.2.0",
         "gatsby-transformer-json": "^3.2.0",
@@ -29,6 +31,7 @@
         "postcss": "^8.2.4",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
+        "react-helmet": "^6.1.0",
         "tailwindcss": "^2.0.2"
     }
 }

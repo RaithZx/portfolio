@@ -1,7 +1,7 @@
 import * as React from "react";
 import Layout from "../components/Layout";
-import { StaticImage, GatsbyImage, getImage } from "gatsby-plugin-image";
-import { Link, StaticQuery, graphql, usestaticQuery } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
+import { Link } from "gatsby";
 
 const Projects = ({ location }) => {
   return (

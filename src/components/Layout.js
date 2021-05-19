@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import "fontsource-zilla-slab";
 import "@fontsource/inter";
 import { Location } from '@reach/router';
+import Seo from "./seo";
 // import "fontsource-inter";
 
 const layout = ({ location, children }) => {
@@ -13,6 +14,7 @@ const layout = ({ location, children }) => {
   let displayHeader = getCurrentPath(location) == '/' ? false : true;
   return (
     <>
+    <Seo />
       {displayHeader && <Header location={location} />}
 
       <main className="px-6 lg:px-32 w-screen ">

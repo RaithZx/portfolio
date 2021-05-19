@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "portfolio",
+    title: "Yuri's Portfolio",
+    author: "Yuri Leandro",
+    description: "Yuri's personal portfolio site"
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -28,6 +30,13 @@ module.exports = {
       options: {
         offset: -50,
         duration: 1000,
+      },
+    },
+    "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-197473707-1",
       },
     },
   ],
