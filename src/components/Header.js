@@ -1,6 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
-import { getCurrentPath, isCurrentPath } from "../helpers/helpers";
+import { isCurrentPath } from "../helpers/helpers";
 
 const Header = (location) => {
   console.log("HEADER");

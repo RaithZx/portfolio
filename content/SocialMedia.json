@@ -20,7 +20,7 @@
     {
       "name": "Trailblazer.me",
       "url": "https://trailblazer.me/id/yleandro",
-      "iconPath": "../src/images/salesforce.png",
-      "iconName": "salesforce.svg"
+      "iconPath": "../src/images/trailheadLogo.png",
+      "iconName": "trailheadLogo.png"
     }
   ]

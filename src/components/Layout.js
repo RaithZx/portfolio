@@ -1,9 +1,8 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import "fontsource-zilla-slab";
 import "@fontsource/inter";
-import { Location } from '@reach/router';
+import { location } from '@reach/router';
 import Seo from "./seo";
 // import "fontsource-inter";
 

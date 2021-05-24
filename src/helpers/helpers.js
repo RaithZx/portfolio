@@ -10,3 +10,7 @@ export const isCurrentPath = (location, item) => {
     console.log(path + ' - ' + item)
     return item == path;
 }
+export const calculateYearsBetweenDates = (d1, d2) => {
+  let yearsDiff = d1.getFullYear() - d2.getFullYear();
+  return yearsDiff;
+};

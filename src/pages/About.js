@@ -1,18 +1,20 @@
 import React from "react";
 import Layout from "../components/Layout";
+import { calculateYearsBetweenDates } from "../helpers/helpers";
 const About = ({location}) => {
+  const years = calculateYearsBetweenDates(new Date(), new Date(1999, 4, 29));
   return (
     <Layout location={location}>
       <section className="flex flex-col" id="about">
         <a href="">
           <div class="flex items-center mb-8">
             <div class="w-10 border-b border-solid border-black"></div>
-            <h1 class="ml-3 text-4xl text-primary font-bold">About me</h1>
+            <h1 class="ml-3 text-4xl text-primary font-bold title">About me</h1>
             {/* <h1 class="ml-3 text-3xl text-gray-700 font-bold title">Work Experience</h1> */}
           </div>
         </a>
         <div class="text-xl text-secondary mb-10">
-          Nice to meet you! My name is Yuri, I'm 21 years old. I was born in Brazil but lived most of my life in Europe between Portugal and Spain. <br />
+          Hey there! My name is Yuri, I'm {years} years old. I was born in Brazil but lived most of my life in Europe between Portugal and Spain. <br />
           I'm a curious person and I love to learn. That's how I got into programming.
           HOW I STARTED?
           My dad works in IT and since younger ages my brother and I had the chance to play around with some computer that my dad would bring home.
