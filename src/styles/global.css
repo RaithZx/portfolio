@@ -10,7 +10,7 @@
         background-attachment: fixed;
         background-size: 54px 54px; */
     /* font-family: "Zilla Slab"; */
-      font-family: "Inter";
+    font-family: "Inter";
   }
   body::selection {
     background: yellow;
@@ -47,5 +47,8 @@
     transition: background-size 0.25s ease-in;
     padding: 5px;
     @apply text-blue-100;
+  }
+  .sectionTitle {
+    margin-top: 2.5rem;
   }
 }

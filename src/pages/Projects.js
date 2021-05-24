@@ -14,13 +14,13 @@ const Projects = ({ location }) => {
               <Link to="/Projects">Projects</Link>
             </h1>
           </div>
-          <div className="flex flex-col items-center space-y-4">
-          <p className="">Page under construction</p>
-          <StaticImage
-            src="../images/underConstruction.png"
-            placeholder="blurred"
-            className="w-2/3"
-          />
+          <div className="flex flex-col items-center space-y-4 mt-10">
+            <p className="">Coming soon...</p>
+            <StaticImage
+              src="../images/underConstruction.png"
+              placeholder="blurred"
+              className="w-2/3"
+            />
           </div>
         </div>
       </div>

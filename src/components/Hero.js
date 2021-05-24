@@ -37,25 +37,22 @@ const Hero = () => {
         Hi! I'm Yuri, an avid web developer with {years + "+ "} years of{" "}
         <Link to="/WorkExperience">
           <span className="">
-            <span className="underline-effect">work experience.</span>
+            <span className="underline-effect">Work Experience.</span>
           </span>
         </Link>
-        {/* <br />
-        I'm a Brazilian based in Spain currently working remotely from Africa
-        🌴🥥. <br /> */}
       </span>
       <span className="text-gray-600 text-xl md:text-xl">
-        Read my{" "}
+        Read more{" "}
         <span className="underline-effect">
           <Link to="/About" className="text-black-300">
-            story
+            About Me
           </Link>
         </span>{" "}
         and checkout my{" "}
         <a href="" className="text-black-300">
           <span className="underline-effect">
             <Link to="/Projects" className="text-black-300">
-              projects
+              Projects
             </Link>
           </span>
         </a>
@@ -65,10 +62,4 @@ const Hero = () => {
   );
 };
 
-// const calculateYears = () => {
-//   let d1 = new Date();
-//   let d2 = new Date(2017, 1, 1);
-//   let yearsDiff = d1.getFullYear() - d2.getFullYear();
-//   return yearsDiff;
-// };
 export default Hero;
