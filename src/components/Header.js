@@ -29,9 +29,7 @@ const Header = (location) => {
           <nav id="site-menu" className="flex ">
             <ul id="menu" className="flex w-full  ">
               {data.allMenuJson.edges.map((item, index) => {
-                console.log(item);
-                console.log("LCOATION");
-                console.log(location.location);
+                console.log("Header Location" + location);
                 return (
                   <>
                     {!isCurrentPath(

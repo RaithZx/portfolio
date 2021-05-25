@@ -17,12 +17,12 @@ const About = ({ location }) => {
         <div className="flex flex-wrap mb-10">
           <div className="text-lg text-secondary  w-full text-justify sm:w-1/2">
             Hey there! 👋🏽 My name is Yuri Leandro, I'm from from Brazil and now
-            living in sunny Spain 🇪🇸. I can work everywhere in the world.{" "}
+            I'm living in sunny Spain.
             <p>
-              I'm always highly motivated to improve and adopt best practices in
-              my workflow. I have a solid analytical mindset that helps me
-              provide a problem-solving asset <br />I have +4 years of
-              experience working for large and small companies.
+              I'm an avid developer with a solid analytical mind that helps me
+              provide a problem-solving asset. Yep, give me a problem I will
+              solve it :P. Enough of marketing pitch, here is some info about
+              me:
             </p>
             <br />
             <span className="sectionTitle text-xl text-primary font-bold">
@@ -38,34 +38,25 @@ const About = ({ location }) => {
               >
                 "Hello World"
               </Link>{" "}
-              was at 12 with Java
+              was at 12 with Java.
             </p>
+            <br />
             <span className="sectionTitle text-xl text-primary font-bold mt-10">
-              I speak
+              Languages
             </span>
-            <p>Portugues 🇵🇹 - Spanish 🇪🇸 - English 🇬🇧</p>
+            <p>Portugues 🇵🇹 | Spanish 🇪🇸 | English 🇬🇧</p>
+            <br />
             <span className="sectionTitle text-xl text-primary font-bold">
-              I love
+              Things I enjoy
             </span>
             <p>
-              <ul className="flex list-disc list-inside space-x-4">
-                <li>Surf</li>
-                <li>Surf</li>
-              </ul>
+              Surf | Cyberpunk & Dystopic art | 3D | Physics engine simulators 
             </p>
           </div>
           <div className="flex flex-col items-center right w-full sm:w-1/2 space-y-2 sm:space-y-20 px-10  mt-10 sm:mt-0">
             <StaticImage
-              className=""
+              className="shadow-lg"
               src="../images/6.jpeg"
-              alt="A dinosaur"
-              placeholder="blurred"
-              width={400}
-              height={400}
-            />
-            <StaticImage
-              className=""
-              src="../images/4.jpeg"
               alt="A dinosaur"
               placeholder="blurred"
               width={400}

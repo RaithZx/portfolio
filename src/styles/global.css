@@ -35,6 +35,8 @@
     background-position: 0 88%;
     transition: background-size 0.25s ease-in;
     padding: 5px;
+    /* color: #165ed2; */
+    /* font-weight: bold; */
     /* transform: skew(0deg, -8deg); */
     /* clip-path: polygon(0 42%, 100% 0, 100% 60%, 0% 100%); */
   }
