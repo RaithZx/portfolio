@@ -2,9 +2,9 @@ import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
 import { isCurrentPath } from "../helpers/helpers";
 
-const Header = (location) => {
+const Header = (locationProp) => {
   console.log("HEADER");
-  console.log(location);
+  console.log(locationProp);
 
   return (
     <StaticQuery
@@ -30,11 +30,11 @@ const Header = (location) => {
             <ul id="menu" className="flex w-full  ">
               {data.allMenuJson.edges.map((item, index) => {
                 console.log("Header Location");
-                console.log(location);
+                console.log(locationProp);
                 return (
                   <>
                     {!isCurrentPath(
-                      location.location.pathname,
+                      locationProp.location.pathname,
                       item.node.link
                     ) && (
                       <li className="text-dark font-bold sm:text-lg mr-4 md:mr-10">
