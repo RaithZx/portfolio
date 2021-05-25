@@ -3,10 +3,10 @@ export function getCurrentPath(location) {
   return path;
 }
 
-export const isCurrentPath = (location, item) => {
+export const isCurrentPath = (locationProp, item) => {
   console.log("Function isCurrentPath location value");
-  console.log(location);
-  let path = location.replaceAll("/", "");
+  console.log(locationProp);
+  let path = locationProp.replaceAll("/", "");
   console.log(path + " - " + item);
   return item == path;
 };
