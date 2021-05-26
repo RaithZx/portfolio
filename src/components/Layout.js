@@ -3,12 +3,16 @@ import Header from "./Header";
 import "fontsource-zilla-slab";
 import "@fontsource/inter";
 import Seo from "./seo";
+import { useLocation } from "@reach/router";
 // import "fontsource-inter";
 
 const layout = ({ location, children }) => {
   console.log("LAYOUT");
   console.log(getCurrentPath(location));
   console.log(location);
+  console.log("useLocation from react router");
+  const { pathname } = useLocation();
+  console.log(pathname);
   let displayHeader = getCurrentPath(location) == "/" ? false : true;
   return (
     <>

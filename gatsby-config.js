@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Yuri's Portfolio",
     author: "Yuri Leandro",
-    description: "Yuri's personal portfolio site"
+    description: "Yuri's personal portfolio site",
+    siteUrl: "https://www.yurileandro.dev",
   },
   plugins: [
     "gatsby-plugin-postcss",
