@@ -26,14 +26,6 @@ const SocialMedia = () => {
     <>
       <span className="mt-10">
         {data.allSocialMediaJson.edges.map((item, index) => {
-          {
-            console.log(
-              item.node.name + " - " + item.node.iconPath.childImageSharp.fluid
-            );
-          }
-          {
-            console.log(item.node.iconPath.childImageSharp.fluid);
-          }
           const image = getImage(item.node.iconPath);
           return (
             <a

@@ -2,7 +2,7 @@ import React from "react";
 import { StaticQuery, graphql, Link } from "gatsby";
 import { isCurrentPath } from "../helpers/helpers";
 
-const Header = (locationProp) => {
+const Header = ({ locationProp }) => {
   console.log("HEADER");
   console.log(locationProp);
 

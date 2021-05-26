@@ -16,7 +16,7 @@ const layout = ({ location, children }) => {
   return (
     <>
       <Seo />
-      {displayHeader && <Header location={pathname} />}
+      {displayHeader && <Header locationProp={pathname} />}
 
       <main className="px-6 lg:px-32 w-screen ">{children}</main>
       {/* <Footer /> */}
