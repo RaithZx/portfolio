@@ -8,12 +8,11 @@ import { useLocation } from "@reach/router";
 
 const layout = ({ location, children }) => {
   console.log("LAYOUT");
-  console.log(getCurrentPath(location));
   console.log(location);
   console.log("useLocation from react router");
   const { pathname } = useLocation();
   console.log(pathname);
-  let displayHeader = getCurrentPath(location) == "/" ? false : true;
+  let displayHeader = pathname == "/" ? false : true;
   return (
     <>
       <Seo />
@@ -23,12 +22,6 @@ const layout = ({ location, children }) => {
       {/* <Footer /> */}
     </>
   );
-};
-
-const getCurrentPath = (location) => {
-  // strip every '/' of the string
-  // return location.pathname.replaceAll('/','');
-  return location.pathname;
 };
 
 export default layout;

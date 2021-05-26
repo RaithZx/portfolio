@@ -33,10 +33,7 @@ const Header = (locationProp) => {
                 console.log(locationProp);
                 return (
                   <>
-                    {!isCurrentPath(
-                      locationProp.location.pathname,
-                      item.node.link
-                    ) && (
+                    {!isCurrentPath(locationProp, item.node.link) && (
                       <li className="text-dark font-bold sm:text-lg mr-4 md:mr-10">
                         <Link to={"/" + item.node.link}>{item.node.name}</Link>
                       </li>
