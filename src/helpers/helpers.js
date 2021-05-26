@@ -6,7 +6,7 @@ export function getCurrentPath(location) {
 export const isCurrentPath = (locationProp, item) => {
   console.log("Function isCurrentPath location value");
   console.log(locationProp);
-  let path = locationProp.location.replaceAll("/", "");
+  let path = locationProp.replaceAll("/", "");
   console.log(path + " - " + item);
   return item == path;
 };
