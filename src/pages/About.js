@@ -53,14 +53,22 @@ const About = ({ location }) => {
               Surf | Cyberpunk & Dystopic art | 3D | Physics engine simulators 
             </p>
           </div>
-          <div className="flex flex-col items-center right w-full sm:w-1/2 space-y-2 sm:space-y-20 px-10  mt-10 sm:mt-0">
+          <div className="flex flex-col items-center right w-full sm:w-1/2 space-y-10 sm:space-y-20 px-10  mt-10 sm:mt-0">
             <StaticImage
               className="shadow-lg"
-              src="../images/6.jpeg"
+              src="../images/profile.jpeg"
               alt="A dinosaur"
               placeholder="blurred"
               width={400}
               height={400}
+            />
+            <StaticImage
+              className="shadow-lg"
+              src="../images/laptop.jpg"
+              alt="A dinosaur"
+              placeholder="blurred"
+              width={400}
+              height={600}
             />
           </div>
         </div>

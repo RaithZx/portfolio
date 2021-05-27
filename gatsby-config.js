@@ -4,6 +4,7 @@ module.exports = {
     author: "Yuri Leandro",
     description: "Yuri's personal portfolio site",
     siteUrl: "https://www.yurileandro.dev",
+    image: "/images/profile.jpeg",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -23,7 +24,12 @@ module.exports = {
     },
     "gatsby-transformer-json",
     "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    {
+      resolve: "gatsby-plugin-sharp",
+      options: {
+        icon: "src/images/profile.jpeg",
+      },
+    },
     "gatsby-transformer-sharp", // Needed for dynamic images
     // "gatsby-plugin-anchor-links",
     {

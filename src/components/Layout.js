@@ -7,11 +7,7 @@ import { useLocation } from "@reach/router";
 // import "fontsource-inter";
 
 const Layout = ({ location, children }) => {
-  console.log("LAYOUT");
-  console.log(location);
-  console.log("useLocation from react router");
   const { pathname } = useLocation();
-  console.log(pathname);
   let displayHeader = pathname == "/" ? false : true;
   return (
     <>

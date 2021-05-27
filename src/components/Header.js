@@ -3,10 +3,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 import { isCurrentPath } from "../helpers/helpers";
 
 const Header = ({ locationProp }) => {
-  console.log("HEADER");
-  console.log(locationProp);
   const isBrowser = typeof window !== "undefined";
-  console.log(" IS BROWSER: " + isBrowser);
   return (
     <StaticQuery
       query={graphql`
@@ -25,13 +22,11 @@ const Header = ({ locationProp }) => {
       render={(data) => (
         <header
           id="top"
-          className="flex justify-center sm:justify-end py-10 sm:px-10 container lg:px-32 "
+          className="flex justify-center sm:justify-end py-10 sm:px-10 container lg:px-32"
         >
           <nav id="site-menu" className="flex ">
             <ul id="menu" className="flex w-full  ">
               {data.allMenuJson.edges.map((item, index) => {
-                console.log("Header Location");
-                console.log(locationProp);
                 return (
                   <>
                     {!isCurrentPath(
