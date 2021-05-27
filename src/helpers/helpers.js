@@ -4,15 +4,12 @@ export function getCurrentPath(location) {
 }
 
 export const isCurrentPath = (locationProp, item, isBrowser) => {
-  console.log("Function isCurrentPath location value");
-  console.log(locationProp);
-  if (!isBrowser) {
-    return false;
-  } else {
+  let matches = false;
+  if (isBrowser) {
     let path = locationProp.replaceAll("/", "");
-    console.log(path + " - " + item);
-    return item == path;
+    matches = item == path;
   }
+  return matches;
 };
 export const calculateYearsBetweenDates = (d1, d2) => {
   let yearsDiff = d1.getFullYear() - d2.getFullYear();
