@@ -6,7 +6,7 @@ import Seo from "./seo";
 import { useLocation } from "@reach/router";
 // import "fontsource-inter";
 
-const layout = ({ location, children }) => {
+const Layout = ({ location, children }) => {
   console.log("LAYOUT");
   console.log(location);
   console.log("useLocation from react router");
@@ -24,4 +24,4 @@ const layout = ({ location, children }) => {
   );
 };
 
-export default layout;
+export default Layout;

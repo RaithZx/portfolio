@@ -5,7 +5,8 @@ import { isCurrentPath } from "../helpers/helpers";
 const Header = ({ locationProp }) => {
   console.log("HEADER");
   console.log(locationProp);
-
+  const isBrowser = typeof window !== "undefined";
+  console.log(" IS BROWSER: " + isBrowser);
   return (
     <StaticQuery
       query={graphql`
@@ -33,7 +34,11 @@ const Header = ({ locationProp }) => {
                 console.log(locationProp);
                 return (
                   <>
-                    {!isCurrentPath(locationProp, item.node.link) && (
+                    {!isCurrentPath(
+                      locationProp,
+                      item.node.link,
+                      isBrowser
+                    ) && (
                       <li className="text-dark font-bold sm:text-lg mr-4 md:mr-10">
                         <Link to={"/" + item.node.link}>{item.node.name}</Link>
                       </li>
