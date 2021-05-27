@@ -61,24 +61,6 @@ const About = ({ location }) => {
               width={400}
               height={400}
             />
-            <StaticImage
-              className="shadow-lg sm:hidden"
-              src="../images/laptop.jpg"
-              alt="A dinosaur"
-              placeholder="blurred"
-              width={400}
-              height={600}
-            />
-          </div>
-          <div className="flex hidden sm:flex w-full mt-10">
-            <StaticImage
-              className="shadow-lg"
-              src="../images/laptop.jpg"
-              alt="A dinosaur"
-              placeholder="blurred"
-              width={400}
-              height={600}
-            />
           </div>
         </div>
       </section>
