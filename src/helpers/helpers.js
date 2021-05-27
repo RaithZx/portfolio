@@ -6,7 +6,6 @@ export function getCurrentPath(location) {
 export const isCurrentPath = (locationProp, item, isBrowser) => {
   console.log("Function isCurrentPath location value");
   console.log(locationProp);
-
   if (!isBrowser) {
     return false;
   } else {
