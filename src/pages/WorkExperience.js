@@ -2,8 +2,6 @@ import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Layout from "../components/Layout";
 const WorkExperience = ({ location }) => {
-  console.log("WorkExperienceº");
-  console.log(location);
   return (
     <StaticQuery
       query={graphql`
@@ -34,7 +32,6 @@ const WorkExperience = ({ location }) => {
               </a>
               <div className="experienceList flex flex-col">
                 {data.allWorkExperienceJson.edges.map((item, index) => {
-                  console.log(item.node.jobTitle);
                   return (
                     // border-b border-gray p-4
                     <div className="experienceItem flex items-center mb-4 p-4 shadow-sm hover:shadow-lg">

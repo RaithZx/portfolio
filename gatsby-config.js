@@ -24,8 +24,9 @@ module.exports = {
     },
     "gatsby-transformer-json",
     "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
     {
-      resolve: "gatsby-plugin-sharp",
+      resolve: `gatsby-plugin-manifest`,
       options: {
         icon: "src/images/profile.jpeg",
       },

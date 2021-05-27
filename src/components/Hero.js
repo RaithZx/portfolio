@@ -13,7 +13,7 @@ const Hero = () => {
           <div className="p-1 bg-white rounded-full">
             <StaticImage
               className="rounded-full"
-              src="../images/6.jpeg"
+              src="../images/profile.jpeg"
               alt="A dinosaur"
               placeholder="blurred"
               layout="fixed"

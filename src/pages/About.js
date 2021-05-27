@@ -20,9 +20,8 @@ const About = ({ location }) => {
             I'm living in sunny Spain.
             <p>
               I'm an avid developer with a solid analytical mind that helps me
-              provide a problem-solving asset. Yep, give me a problem I will
-              solve it :P. Enough of marketing pitch, here is some info about
-              me:
+              provide a problem-solving asset. Enough of marketing pitch :P,
+              here is some more info about me:
             </p>
             <br />
             <span className="sectionTitle text-xl text-primary font-bold">
@@ -62,6 +61,16 @@ const About = ({ location }) => {
               width={400}
               height={400}
             />
+            <StaticImage
+              className="shadow-lg sm:hidden"
+              src="../images/laptop.jpg"
+              alt="A dinosaur"
+              placeholder="blurred"
+              width={400}
+              height={600}
+            />
+          </div>
+          <div className="flex hidden sm:flex w-full mt-10">
             <StaticImage
               className="shadow-lg"
               src="../images/laptop.jpg"
