@@ -16,13 +16,10 @@ const About = ({ location }) => {
         </a>
         <div className="flex flex-wrap mb-10">
           <div className="text-lg text-secondary  w-full text-justify sm:w-1/2">
-            Hey there! 👋🏽 My name is Yuri Leandro, I'm from from Brazil and now
-            I'm living in sunny Spain.
-            <p>
-              I'm an avid developer with a solid analytical mind that helps me
-              provide a problem-solving asset. Enough of marketing pitch :P,
-              here is some more info about me:
-            </p>
+            Hey there! 👋🏽 My name is Yuri Leandro, Brazilian based in sunny
+            Spain. I'm an avid developer with a solid analytical mind that helps
+            me provide a problem-solving asset.
+            <br />
             <br />
             <span className="sectionTitle text-xl text-primary font-bold">
               How I started programming
@@ -46,10 +43,19 @@ const About = ({ location }) => {
             <p>Portugues 🇵🇹 | Spanish 🇪🇸 | English 🇬🇧</p>
             <br />
             <span className="sectionTitle text-xl text-primary font-bold">
-              Things I enjoy
+              Code & Tech
             </span>
             <p>
-              Surf | Cyberpunk & Dystopic art | 3D | Physics engine simulators 
+              Everything Salesforce | JavaScript | PHP | Python | React | CSS |
+              MYSQL | SQL | NodeJs | Jenkins | JQuery{" "}
+            </p>
+            <br />
+            <span className="sectionTitle text-xl text-primary font-bold">
+              Stuff I enjoy
+            </span>
+            <p>
+              Surf | Snowboard | Cyberpunk & Dystopic art | 3D | Physics engine
+              simulators 
             </p>
           </div>
           <div className="flex flex-col items-center right w-full sm:w-1/2 space-y-10 sm:space-y-20 px-10  mt-10 sm:mt-0">

@@ -1,26 +1,26 @@
- [
-    {
-      "name": "LinkedIn",
-      "url": "https://www.linkedin.com/in/yuri-fraga-leandro",
-      "iconPath": "../src/images/linkedin.png",
-      "iconName": "linkedin.svg"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/yuri_codes",
-      "iconPath": "../src/images/instagram.png",
-      "iconName": "instagram.svg"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://www.github.com/raithzx",
-      "iconPath": "../src/images/github.png",
-      "iconName": "github.svg"
-    },
-    {
-      "name": "Trailblazer.me",
-      "url": "https://trailblazer.me/id/yleandro",
-      "iconPath": "../src/images/trailheadLogo.png",
-      "iconName": "trailheadLogo.png"
-    }
-  ]
+[
+  {
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/yuri-fraga-leandro",
+    "iconPath": "../src/images/linkedin.png",
+    "iconName": "linkedin.svg"
+  },
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/yurileandro_dev",
+    "iconPath": "../src/images/instagram.png",
+    "iconName": "instagram.svg"
+  },
+  {
+    "name": "GitHub",
+    "url": "https://www.github.com/raithzx",
+    "iconPath": "../src/images/github.png",
+    "iconName": "github.svg"
+  },
+  {
+    "name": "Trailblazer.me",
+    "url": "https://trailblazer.me/id/yleandro",
+    "iconPath": "../src/images/trailheadLogo.png",
+    "iconName": "trailheadLogo.png"
+  }
+]
